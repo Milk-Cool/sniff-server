@@ -1,0 +1,98 @@
+import { Pool } from "pg";
+import { randomUUID } from "crypto";
+
+export const pool = new Pool({
+    host: process.env.POSTGRES_HOST,
+    user: process.env.POSTGRES_USER,
+    password: process.env.POSTGRES_PASSWORD,
+    database: process.env.POSTGRES_DB
+});
+/** @typedef {"0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "a" | "b" | "c" | "d" | "e" | "f" | "A" | "B" | "C" | "D" | "E" | "F"} HexChar */
+/** @typedef {`${HexChar}${HexChar}`} HexByte */
+/** @typedef {`${HexByte}:${HexByte}:${HexByte}:${HexByte}:${HexByte}:${HexByte}`} MAC */
+
+/**
+ * @typedef {object} Board A board
+ * @prop {import("crypto").UUID} id Board internal UUID
+ * @prop {MAC} mac Board mac
+ */
+/**
+ * @typedef {object} Sniff A sniffed MAC
+ * @prop {import("crypto").UUID} id Sniff internal UUID
+ * @prop {MAC} from_mac Board mac
+ * @prop {MAC} mac Device mac
+ * @prop {number} rssi RSSI at the moment
+ * @prop {number} timestamp Timestamp
+ */
+
+export const init = async () => {
+    await pool.query(`CREATE TABLE IF NOT EXISTS boards (
+        id uuid NOT NULL,
+        mac bytea NOT NULL,
+
+        PRIMARY KEY (id)
+    )`);
+    await pool.query(`CREATE TABLE IF NOT EXISTS sniffs (
+        id uuid NOT NULL,
+        from_mac bytea NOT NULL,
+        mac bytea NOT NULL,
+        rssi INTEGER NOT NULL,
+        timestamp BIGINT NOT NULL,
+
+        PRIMARY KEY (id)
+    )`);
+};
+export const deinit = async () => {
+    await pool.end();
+};
+
+/**
+ * @param {string} mac MAC address
+ * @returns {Buffer} That adderss as a buffer
+ */
+const macToBuffer = mac => {
+    return Buffer.from(mac.split(":").map(x => parseInt(x, 16)));
+};
+/**
+ * @param {Buffer} buf MAC address buffer
+ * @returns That address as a string
+ */
+const bufferToMac = buf => {
+    return Array.from(buf).map(x => x.toString(16).padStart(2, "0")).join(":");
+};
+/**
+ * @param {object} obj Initial object
+ * @returns {object} Output object
+ */
+const objToMacs = obj => {
+    if(!obj) return obj;
+    if("mac" in obj) obj.mac = bufferToMac(obj.mac);
+    if("from_mac" in obj) obj.from_mac = bufferToMac(obj.from_mac);
+    return obj;
+};
+
+/**
+ * Adds a trusted board.
+ * @param {MAC} mac Board MAC address
+ */
+export const addTrustedBoard = async mac => {
+    await pool.query(`INSERT INTO boards (id, mac) VALUES ($1, $2)`, [randomUUID(), macToBuffer(mac)]);
+};
+/**
+ * Gets a trusted board.
+ * @param {MAC} mac Board MAC address
+ */
+export const getTrustedBoard = async mac => {
+    return objToMacs((await pool.query(`SELECT * FROM boards WHERE mac = $1`, [macToBuffer(mac)])).rows?.[0]);
+};
+
+/**
+ * Pushes a sniff to the database.
+ * @param {MAC} fromMac Board MAC address
+ * @param {MAC} mac Device MAC address
+ * @param {number} rssi RSSI
+ */
+export const pushSniff = async (fromMac, mac, rssi) => {
+    await pool.query(`INSERT INTO sniffs (id, from_mac, mac, rssi, timestamp)
+        VALUES ($1, $2, $3, $4, $5)`, [randomUUID(), fromMac, mac, rssi, Date.now()]);
+};
