@@ -37,7 +37,7 @@ export const init = async () => {
         from_mac bytea NOT NULL,
         mac bytea NOT NULL,
         rssi INTEGER NOT NULL,
-        timestamp BIGINT NOT NULL,
+        timestamp NUMERIC NOT NULL,
 
         PRIMARY KEY (id)
     )`);
@@ -108,4 +108,18 @@ export const getStats = async range => {
         COUNT(DISTINCT mac) as cnt_mac,
         COUNT(DISTINCT from_mac) as cnt_from
         FROM sniffs WHERE $1 - timestamp < $2`, [Date.now(), range])).rows?.[0];
+}
+/**
+ * Gets chart data for sniffs in a certain time period.
+ * Date.now() - sniff.timestamp < range
+ * @param {number} range Range in ms
+ * @returns {{ timestamp: number, cnt: number, cnt_mac: number, percentage: number }[]} The chart data
+ */
+export const getCharts = async range => {
+    return (await pool.query(`SELECT FLOOR((timestamp - $1 + $2) / $2 * 100) AS percentage,
+        MIN(timestamp) AS timestamp,
+        COUNT(*) AS cnt,
+        COUNT(DISTINCT mac) AS cnt_mac
+        FROM sniffs WHERE $1 - timestamp < $2
+        GROUP BY percentage ORDER BY percentage ASC`, [Date.now(), range])).rows;
 }

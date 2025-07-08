@@ -83,3 +83,8 @@ textarea {
 .card > * {
     margin: .2em;
 }
+
+#chart {
+    max-width: 60em;
+    max-height: 45em;
+}
