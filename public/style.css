@@ -51,3 +51,35 @@ textarea {
     min-height: 200px;
     min-width: 400px;
 }
+
+#cards {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    background: var(--mg);
+    width: 12em;
+    height: 8em;
+    text-align: center;
+    /* https://stackoverflow.com/a/44825653 */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+    border-radius: 1em;
+    
+    box-sizing: border-box;
+}
+.card.r {
+    border-bottom: 5px solid red;
+}
+.card.y {
+    border-bottom: 5px solid gold;
+}
+.card.g {
+    border-bottom: 5px solid limegreen;
+}
+.card > * {
+    margin: .2em;
+}

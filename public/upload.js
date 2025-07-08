@@ -1,4 +1,4 @@
-import { ROM, Transport, ESPLoader } from "https://unpkg.com/esptool-js@0.5.6/bundle.js";
+import { Transport, ESPLoader } from "https://unpkg.com/esptool-js@0.5.6/bundle.js";
 
 if(!localStorage.getItem("_sniff_key"))
     alert("Key not set! Authenticate at /auth first");

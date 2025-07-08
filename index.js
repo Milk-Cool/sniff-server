@@ -96,3 +96,16 @@ export const pushSniff = async (fromMac, mac, rssi) => {
     await pool.query(`INSERT INTO sniffs (id, from_mac, mac, rssi, timestamp)
         VALUES ($1, $2, $3, $4, $5)`, [randomUUID(), fromMac, mac, rssi, Date.now()]);
 };
+
+/**
+ * Gets stats for sniffs in a certain time period.
+ * Date.now() - sniff.timestamp < range
+ * @param {number} range Range in ms
+ * @returns {{ cnt: number, cnt_mac: number, cnt_from: number }} The stats
+ */
+export const getStats = async range => {
+    return (await pool.query(`SELECT COUNT(*) AS cnt,
+        COUNT(DISTINCT mac) as cnt_mac,
+        COUNT(DISTINCT from_mac) as cnt_from
+        FROM sniffs WHERE $1 - timestamp < $2`, [Date.now(), range])).rows?.[0];
+}

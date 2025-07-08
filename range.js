@@ -1,0 +1,1 @@
+export const DEFAULT_RANGE = 7 * 24 * 3600 * 1000;
