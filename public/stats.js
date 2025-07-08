@@ -23,7 +23,21 @@ else (async () => {
         }
     });
     if(f2.status !== 200) return alert("Couldn't fetch charts!");
-    const j2 = await f2.json();
+    const j2Raw = await f2.json();
+    const j2 = new Array(100).fill(0).map((_x, i) => {
+        const raw = j2Raw.find(x => x.percentage === i);
+        if(raw) return raw;
+        const next = j2Raw.find(x => x.percentage > i);
+        const prev = j2Raw.findLast(x => x.percentage < i);
+        const timestamp = next && prev
+            ? prev.timestamp + (next.timestamp - prev.timestamp) * (i - prev.percentage) * 0.01
+            : next
+            ? next.timestamp
+            : prev
+            ? prev.timestamp
+            : 0;
+        return { percentage: i, cnt: 0, cntMac: 0, timestamp: timestamp };
+    });
     new Chart(document.querySelector("#chart"), {
         type: "line",
         data: {
