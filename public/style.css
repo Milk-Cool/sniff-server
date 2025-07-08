@@ -1,0 +1,39 @@
+:root {
+    --bgd: #111;
+    --bg: #333;
+    --mg: #555;
+    --fg: #aaa;
+    --sidebar-width: 200px;
+}
+
+*:not(input, button, textarea) {
+    font-family: sans-serif;
+    color: var(--fg);
+}
+
+body {
+    background: var(--bg);
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--sidebar-width);
+    height: 100vh;
+    background: var(--bgd);
+}
+#sidebar > a, b {
+    display: block;
+    color: var(--fg);
+    text-align: center;
+    margin: .6em;
+    font-size: larger;
+}
+#main {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100vw - var(--sidebar-width) - 2em);
+    height: 100vh;
+}

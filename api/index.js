@@ -7,4 +7,5 @@ apiRouter.use(async (req, res, next) => {
         return res.status(401).send("Unauthorized!");
     return await next();
 });
+apiRouter.get("/check", (_req, res) => res.send("OK"));
 apiRouter.use("/boards", boardRouter);

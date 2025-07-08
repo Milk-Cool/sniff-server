@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("components/head", { title: "upload" }) %>
+        <script src="/upload.js" type="module" defer></script>
+    </head>
+    <body>
+        <%- include("components/sidebar") %>
+        <div id="main">
+            <h1>Upload</h1>
+            <p>You can get the firmware <a href="https://github.com/Milk-Cool/sniff-esp32" target="_blank">here</a> :D</p>
+            <label for="bootloader">Bootloader (bootloader.bin):</label>
+            <input type="file" id="bootloader"><br>
+            <label for="partitions">Partitions table (partitions.bin):</label>
+            <input type="file" id="partitions"><br>
+            <label for="firmware">Firmware (firmware.bin):</label>
+            <input type="file" id="firmware"><br>
+            <label for="ssid">SSID:</label>
+            <input id="ssid"><br>
+            <label for="password">WiFi password:</label>
+            <input id="password"><br>
+            <label for="api">API origin:</label>
+            <input id="api"><br>
+            <button id="upload">Trust, upload and configure</button><br>
+            <textarea placeholder="Logs will appear here..." id="logs"></textarea>
+        </div>
+    </body>
+</html>

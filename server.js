@@ -3,8 +3,12 @@ import "dotenv/config";
 import { deinit, getTrustedBoard, init, pushSniff } from "./index.js";
 import { MAC_REGEX } from "./regex.js";
 import { apiRouter } from "./api/index.js";
+import { frontendRouter } from "./frontend.js";
 
 const app = express();
+app.use(express.static("public"));
+app.use(frontendRouter);
+
 app.use("/api", apiRouter);
 app.post("/sniff", express.json(), async (req, res) => {
     if(!req.body || !req.body.mac || !req.body.mac.match?.(MAC_REGEX) || !Array.isArray(req.body.sniffs))
