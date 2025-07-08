@@ -2,7 +2,7 @@
     --bgd: #111;
     --bg: #333;
     --mg: #555;
-    --fg: #aaa;
+    --fg: #ccc;
     --sidebar-width: 200px;
 }
 
@@ -36,4 +36,17 @@ body {
     right: 0;
     width: calc(100vw - var(--sidebar-width) - 2em);
     height: 100vh;
+}
+
+input, button, textarea {
+    padding: .5em;
+    margin: .5em;
+    border: 3px solid var(--mg);
+    background: var(--bgd);
+    color: var(--fg);
+    border-radius: 1em;
+}
+textarea {
+    min-height: 200px;
+    min-width: 400px;
 }
