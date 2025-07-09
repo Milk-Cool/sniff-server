@@ -107,7 +107,7 @@ export const getTrustedBoards = async () => {
  */
 export const pushSniff = async (fromMac, mac, rssi) => {
     await pool.query(`INSERT INTO sniffs (id, from_mac, mac, rssi, timestamp)
-        VALUES ($1, $2, $3, $4, $5)`, [randomUUID(), fromMac, mac, rssi, Date.now()]);
+        VALUES ($1, $2, $3, $4, $5)`, [randomUUID(), macToBuffer(fromMac), macToBuffer(mac), rssi, Date.now()]);
 };
 
 /**
