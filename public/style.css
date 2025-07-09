@@ -88,3 +88,7 @@ textarea {
     max-width: 60em;
     max-height: 45em;
 }
+
+.gray, .gray a {
+    color: var(--mg);
+}
