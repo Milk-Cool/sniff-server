@@ -9,3 +9,4 @@ frontendRouter.get("/", async (req, res) => {
     res.send(loadEjs({ range }, "dashboard.ejs"))
 });
 frontendRouter.get("/upload", (_req, res) => res.send(loadEjs({}, "upload.ejs")));
+frontendRouter.get("/boards", (_req, res) => res.send(loadEjs({}, "boards.ejs")));

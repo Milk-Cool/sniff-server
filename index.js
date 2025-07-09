@@ -85,6 +85,19 @@ export const addTrustedBoard = async mac => {
 export const getTrustedBoard = async mac => {
     return objToMacs((await pool.query(`SELECT * FROM boards WHERE mac = $1`, [macToBuffer(mac)])).rows?.[0]);
 };
+/**
+ * Deletes a trusted board by its ID.
+ * @param {import("crypto").UUID} id Board UUID
+ */
+export const deleteTrustedBoardByID = async id => {
+    await pool.query(`DELETE FROM boards WHERE id = $1`, [id]);
+};
+/**
+ * Gets all trusted boards.
+ */
+export const getTrustedBoards = async () => {
+    return ((await pool.query(`SELECT * FROM boards`)).rows)?.map?.(objToMacs);
+};
 
 /**
  * Pushes a sniff to the database.

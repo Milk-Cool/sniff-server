@@ -92,3 +92,15 @@ textarea {
 .gray, .gray a {
     color: var(--mg);
 }
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid var(--fg);
+}
+td, th {
+    min-width: 7em;
+    padding: .5em;
+}
+button {
+    cursor: pointer;
+}
