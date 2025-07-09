@@ -1,6 +1,7 @@
 import express from "express";
-import { addTrustedBoard, deleteTrustedBoardByID, getTrustedBoard, getTrustedBoards } from "../index.js";
+import { addTrustedBoard, deleteTrustedBoardByID, getBoardCharts, getBoardStats, getTrustedBoard, getTrustedBoardByID, getTrustedBoards } from "../index.js";
 import { MAC_REGEX } from "../regex.js";
+import { DEFAULT_RANGE } from "../range.js";
 
 export const boardRouter = express.Router();
 boardRouter.use(express.json());
@@ -10,6 +11,28 @@ boardRouter.get("/", async (req, res) => {
 boardRouter.get("/:id/delete", async (req, res) => {
     await deleteTrustedBoardByID(req.params.id);
     res.send(await getTrustedBoards());
+});
+boardRouter.get("/:id/stats", async (req, res) => {
+    const range = req.query.range ? parseInt(req.query.range) : DEFAULT_RANGE;
+    const board = await getTrustedBoardByID(req.params.id);
+    if(!board) return res.status(404).send("Couldn't find the board!");
+    const stats = await getBoardStats(board.mac, Number.isNaN(range) ? DEFAULT_RANGE : range);
+    res.send({
+        cnt: stats.cnt,
+        cntMac: stats.cnt_mac
+    });
+});
+boardRouter.get("/:id/chart", async (req, res) => {
+    const range = req.query.range ? parseInt(req.query.range) : DEFAULT_RANGE;
+    const board = await getTrustedBoardByID(req.params.id);
+    if(!board) return res.status(404).send("Couldn't find the board!");
+    const charts = await getBoardCharts(board.mac, Number.isNaN(range) ? DEFAULT_RANGE : range);
+    res.send(charts.map(x => {
+        x.cntMac = x.cnt_mac;
+        delete x.cnt_mac;
+        
+        return Object.fromEntries(Object.entries(x).map(x => [x[0], parseInt(x[1])]));
+    }));
 });
 boardRouter.post("/new", async (req, res) => {
     if(!req.body || !req.body.mac || !req.body.mac.match?.(MAC_REGEX))

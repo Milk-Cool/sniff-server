@@ -26,11 +26,20 @@ const updateTable = boards => {
         tr.appendChild(mac);
 
         const actions = document.createElement("td");
+
         const del = document.createElement("a");
         del.href = "javascript:void(0)";
         del.innerText = "delete";
         del.addEventListener("click", () => delBoard(board.id, tr));
         actions.appendChild(del);
+
+        actions.append(document.createTextNode(" "));
+
+        const stats = document.createElement("a");
+        stats.href = "/board?id=" + board.id;
+        stats.innerText = "stats";
+        actions.appendChild(stats);
+
         tr.appendChild(actions);
 
         tbody.appendChild(tr);

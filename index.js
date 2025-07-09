@@ -81,9 +81,18 @@ export const addTrustedBoard = async mac => {
 /**
  * Gets a trusted board.
  * @param {MAC} mac Board MAC address
+ * @returns {Board} The board
  */
 export const getTrustedBoard = async mac => {
     return objToMacs((await pool.query(`SELECT * FROM boards WHERE mac = $1`, [macToBuffer(mac)])).rows?.[0]);
+};
+/**
+ * Gets a trusted board by its ID.
+ * @param {import("crypto").UUID} id Board ID
+ * @returns {Board} The board
+ */
+export const getTrustedBoardByID = async id => {
+    return objToMacs((await pool.query(`SELECT * FROM boards WHERE id = $1`, [id])).rows?.[0]);
 };
 /**
  * Deletes a trusted board by its ID.
@@ -94,6 +103,7 @@ export const deleteTrustedBoardByID = async id => {
 };
 /**
  * Gets all trusted boards.
+ * @returns {Board[]} The board
  */
 export const getTrustedBoards = async () => {
     return ((await pool.query(`SELECT * FROM boards`)).rows)?.map?.(objToMacs);
@@ -135,4 +145,31 @@ export const getCharts = async range => {
         COUNT(DISTINCT mac) AS cnt_mac
         FROM sniffs WHERE $1 - timestamp < $2
         GROUP BY percentage ORDER BY percentage ASC`, [Date.now(), range])).rows;
+}
+/**
+ * Gets stats for sniffs in a certain time period by a certain board.
+ * Date.now() - sniff.timestamp < range
+ * @param {MAC} mac Board MAC
+ * @param {number} range Range in ms
+ * @returns {{ cnt: number, cnt_mac: number }} The stats
+ */
+export const getBoardStats = async (mac, range) => {
+    return (await pool.query(`SELECT COUNT(*) AS cnt,
+        COUNT(DISTINCT mac) as cnt_mac
+        FROM sniffs WHERE $1 - timestamp < $2 AND from_mac = $3`, [Date.now(), range, macToBuffer(mac)])).rows?.[0];
+}
+/**
+ * Gets chart data for sniffs in a certain time period by a certain board.
+ * Date.now() - sniff.timestamp < range
+ * @param {MAC} mac Board MAC
+ * @param {number} range Range in ms
+ * @returns {{ timestamp: number, cnt: number, cnt_mac: number, percentage: number }[]} The chart data
+ */
+export const getBoardCharts = async (mac, range) => {
+    return (await pool.query(`SELECT FLOOR((timestamp - $1 + $2) / $2 * 100) AS percentage,
+        MIN(timestamp) AS timestamp,
+        COUNT(*) AS cnt,
+        COUNT(DISTINCT mac) AS cnt_mac
+        FROM sniffs WHERE $1 - timestamp < $2 AND from_mac = $3
+        GROUP BY percentage ORDER BY percentage ASC`, [Date.now(), range, macToBuffer(mac)])).rows;
 }
