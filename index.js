@@ -173,3 +173,21 @@ export const getBoardCharts = async (mac, range) => {
         FROM sniffs WHERE $1 - timestamp < $2 AND from_mac = $3
         GROUP BY percentage ORDER BY percentage ASC`, [Date.now(), range, macToBuffer(mac)])).rows;
 }
+
+/**
+ * Finds MACs matching given options.
+ * @param {number} from Min timestamp
+ * @param {number} to Max timestamp
+ * @param {MAC | ""} [at] MAC address of the board that must have sniffed their MAC
+ * @returns {{ mac: MAC, spotted: number }[]} The results
+ */
+export const search = async (from, to, at = "") => {
+    return (await pool.query(`SELECT mac,
+        COUNT(*) AS spotted
+        FROM sniffs WHERE timestamp >= $1 AND timestamp <= $2${at !== "" ? ` AND from_mac = $3` : ""}
+        GROUP BY mac ORDER BY spotted DESC`, [from, to].concat(at === "" ? [] : [macToBuffer(at)]))).rows.map(x => {
+            x = objToMacs(x);
+            x.spotted = parseInt(x.spotted);
+            return x;
+        });
+}

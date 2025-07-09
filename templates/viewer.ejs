@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("components/head", { title: "viewer" }) %>
+        <script src="/viewer.js" type="module" defer></script>
+    </head>
+    <body>
+        <%- include("components/sidebar") %>
+        <div id="main">
+            <h1>Viewer</h1>
+            <h6>All dates are in UTC!</h6>
+            <label for="from">From: </label><input type="datetime-local" id="from"><br>
+            <label for="to">To: </label><input type="datetime-local" id="to"><br>
+            <label for="at">At: </label><select id="at"><option selected value="">Any</option></select><br>
+            <button id="search">Search</button>
+
+            <table>
+                <thead>
+                    <th>MAC</th>
+                    <th>spotted</th>
+                    <th>details</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </body>
+</html>
