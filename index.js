@@ -120,6 +120,14 @@ export const deleteTrustedBoardByID = async id => {
 export const getTrustedBoards = async () => {
     return ((await pool.query(`SELECT * FROM boards`)).rows)?.map?.(objToMacs);
 };
+/**
+ * Changes a trusted board's name by its ID.
+ * @param {import("crypto").UUID} id Board UUID
+ * @param {string} name New name
+ */
+export const changeTrustedBoardsName = async (id, name) => {
+    await pool.query(`UPDATE boards SET name = $2 WHERE id = $1`, [id, name]);
+};
 
 /**
  * Pushes a sniff to the database.

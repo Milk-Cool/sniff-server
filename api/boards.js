@@ -1,5 +1,5 @@
 import express from "express";
-import { addTrustedBoard, deleteTrustedBoardByID, getBoardCharts, getBoardStats, getTrustedBoard, getTrustedBoardByID, getTrustedBoards } from "../index.js";
+import { addTrustedBoard, changeTrustedBoardsName, deleteTrustedBoardByID, getBoardCharts, getBoardStats, getTrustedBoard, getTrustedBoardByID, getTrustedBoards } from "../index.js";
 import { MAC_REGEX } from "../regex.js";
 import { DEFAULT_RANGE } from "../range.js";
 
@@ -11,6 +11,11 @@ boardRouter.get("/", async (req, res) => {
 boardRouter.get("/:id/delete", async (req, res) => {
     await deleteTrustedBoardByID(req.params.id);
     res.send(await getTrustedBoards());
+});
+boardRouter.get("/:id/name", async (req, res) => {
+    if(!req.query.new) return res.status(400).send("Please specify a new name!");
+    await changeTrustedBoardsName(req.params.id, req.query.new);
+    res.send("OK");
 });
 boardRouter.get("/:id/stats", async (req, res) => {
     const range = req.query.range ? parseInt(req.query.range) : DEFAULT_RANGE;

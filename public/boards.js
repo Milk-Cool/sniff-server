@@ -41,7 +41,7 @@ const updateTable = boards => {
 
         const stats = document.createElement("a");
         stats.href = "/board?id=" + board.id;
-        stats.innerText = "stats";
+        stats.innerText = "stats & edit";
         actions.appendChild(stats);
 
         tr.appendChild(actions);

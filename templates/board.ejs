@@ -9,6 +9,7 @@
         <div id="main">
             <h1>Board stats</h1>
             <h2>ID: <%= id %> | MAC: <%= mac %><%= name ? " | " + name : "" %></h2>
+            <input id="newname" value="<%= name %>"><button id="changename">Change name</button><br>
             <%- include("components/stats", { range, boards: false, id }) %>
         </div>
     </body>

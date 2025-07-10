@@ -37,4 +37,14 @@ else (async () => {
             ]
         }
     });
+
+    document.querySelector("#changename").addEventListener("click", async () => {
+        const f = await fetch(`/api/boards/${id}/name?new=${encodeURIComponent(document.querySelector("#newname").value)}`, {
+            headers: {
+                authorization: "Bearer " + localStorage.getItem("_sniff_key")
+            }
+        });
+        if(f.status !== 200) return alert("Couldn't update name!");
+        location.reload();
+    });
 })();
