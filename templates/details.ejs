@@ -8,6 +8,10 @@
         <%- include("components/sidebar") %>
         <div id="main">
             <h1>MAC details for <%= mac %></h1>
+            <h6>All dates are in UTC!</h6>
+            <label for="from">From: </label><input type="datetime-local" id="from"><br>
+            <label for="to">To: </label><input type="datetime-local" id="to"><br>
+            <button id="refresh">Refresh</button>
             <h2>Timeline</h2>
             <div id="timeline"></div>
             <button id="more">More</button>
