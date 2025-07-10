@@ -12,6 +12,7 @@ app.use(frontendRouter);
 
 app.use("/api", apiRouter);
 app.post("/sniff", express.json(), async (req, res) => {
+    if(process.env.DEMO) return res.send("DEMO");
     if(!req.body || !req.body.key || !req.body.mac || !req.body.mac.match?.(MAC_REGEX) || !Array.isArray(req.body.sniffs))
         return res.status(400).send("Invalid body!");
     const board = await getTrustedBoard(req.body.mac, false);

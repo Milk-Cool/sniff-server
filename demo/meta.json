@@ -1,0 +1,14 @@
+{
+    "boards": [
+        {
+            "mac": "eb:76:ad:18:85:4f",
+            "name": "ESP0",
+            "key": "test"
+        },
+        {
+            "mac": "19:4a:58:ea:58:77",
+            "name": "ESP1",
+            "key": "test"
+        }
+    ]
+}

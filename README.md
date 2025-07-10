@@ -17,3 +17,8 @@ Then, run the service with Compose:
 docker-compose up
 ```
 It'll start listening at port 9097. Don't forget to enter your admin key in the "auth" section!
+
+## demo mode
+> **WARNING**: DO NOT enable demo mode in prod, it WILL MESS UP YOUR DATABASE!!!
+
+Set `DEMO=1` in `.env`.

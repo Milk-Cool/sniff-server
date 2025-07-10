@@ -1,5 +1,6 @@
 import { Pool } from "pg";
 import { createHash, randomUUID } from "crypto";
+import { readFileSync } from "fs";
 
 export const pool = new Pool({
     host: process.env.POSTGRES_HOST,
@@ -28,6 +29,11 @@ export const pool = new Pool({
  */
 
 export const init = async () => {
+    if(process.env.DEMO) {
+        await pool.query(`DROP TABLE boards`);
+        await pool.query(`DROP TABLE sniffs`);
+    }
+
     await pool.query(`CREATE TABLE IF NOT EXISTS boards (
         id uuid NOT NULL,
         mac bytea NOT NULL,
@@ -46,6 +52,18 @@ export const init = async () => {
 
         PRIMARY KEY (id)
     )`);
+
+    if(process.env.DEMO) {
+        const meta = JSON.parse(readFileSync("demo/meta.json", "utf-8"));
+        const data = JSON.parse(readFileSync("demo/data.json", "utf-8"));
+
+        for(const board of meta.boards) {
+            await addTrustedBoard(board.mac, board.name, board.key);
+        }
+        for(const sniff of data) {
+            await pushSniff(sniff.fromMac, sniff.mac, sniff.rssi, sniff.ssid);
+        }
+    }
 };
 export const deinit = async () => {
     await pool.end();

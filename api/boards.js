@@ -9,10 +9,12 @@ boardRouter.get("/", async (req, res) => {
     res.send(await getTrustedBoards());
 });
 boardRouter.get("/:id/delete", async (req, res) => {
+    if(process.env.DEMO) return res.status(400).send("DEMO");
     await deleteTrustedBoardByID(req.params.id);
     res.send(await getTrustedBoards());
 });
 boardRouter.get("/:id/name", async (req, res) => {
+    if(process.env.DEMO) return res.status(400).send("DEMO");
     if(!req.query.new) return res.status(400).send("Please specify a new name!");
     await changeTrustedBoardsName(req.params.id, req.query.new);
     res.send("OK");
@@ -40,6 +42,7 @@ boardRouter.get("/:id/chart", async (req, res) => {
     }));
 });
 boardRouter.post("/new", async (req, res) => {
+    if(process.env.DEMO) return res.status(400).send("DEMO");
     if(!req.body || !req.body.mac || !req.body.mac.match?.(MAC_REGEX) || !req.body.key)
         return res.status(400).send("Bad request");
     if(await getTrustedBoard(req.body.mac))

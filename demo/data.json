@@ -1,0 +1,3602 @@
+[
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -54,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -67,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:a4:39:41:c8:85",
+        "rssi": -52,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -54,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -62,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "db:6e:fc:f0:58:bc",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -54,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -58,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -61,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -66,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -61,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -58,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -70,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -62,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -70,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -61,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -62,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -63,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d8:5d:fc:d2:c8:e7",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -64,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -65,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -52,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:fb:95:b1:1c:0e",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:fb:95:b1:1c:0e",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -54,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -70,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -59,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "db:6e:fc:f0:58:bc",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d8:5d:fc:d2:c8:e7",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -68,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -65,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -61,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -67,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -63,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "3c:14:bd:05:40:26",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -58,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -62,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -62,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -52,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -50,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d8:5d:fc:d2:c8:e7",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -57,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -57,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -53,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -61,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -61,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "3c:14:bd:05:40:26",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "74:a4:39:41:c8:85",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d8:5d:fc:d2:c8:e7",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -57,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -54,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -70,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "37:19:53:2c:92:36",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -66,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -68,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "37:19:53:2c:92:36",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -62,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "22:a1:4b:78:e5:22",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -54,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -58,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -60,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -50,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:a1:4b:78:e5:22",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -66,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -59,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -61,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "7b:b7:85:b8:72:08",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -58,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -69,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -53,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -60,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -65,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -61,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -55,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -54,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -62,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -63,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -66,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -54,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -63,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -60,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -68,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3c:14:bd:05:40:26",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3c:14:bd:05:40:26",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b2:55:cf:96:0d:84",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -52,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4b:64:b6:97:f5:ca",
+        "rssi": -53,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "db:6e:fc:f0:58:bc",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "2f:23:62:20:d9:be",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -59,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -62,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -59,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -50,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -58,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -68,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "74:a4:39:41:c8:85",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -67,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -62,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -52,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d8:5d:fc:d2:c8:e7",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b7:85:b8:72:08",
+        "rssi": -61,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:d0:1e:5b:9b:dd",
+        "rssi": -62,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -68,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -50,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -67,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "37:19:53:2c:92:36",
+        "rssi": -54,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -66,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b7:85:b8:72:08",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -59,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -68,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -52,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -53,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -61,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -58,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -63,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e5:97:ac:f7:04:95",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -62,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -52,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -52,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "37:19:53:2c:92:36",
+        "rssi": -65,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -70,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "80:d5:d6:e9:e7:4d",
+        "rssi": -62,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "19:35:ca:19:5a:4f",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0e:0d:c8:15:93:96",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -53,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -62,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "e8:fb:1e:13:c0:da",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "db:6e:fc:f0:58:bc",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -67,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ab:c7:a9:b5:df:e1",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "66:cc:c0:76:3f:21",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -63,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b8:da:25:ff:9f:ff",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -57,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ec:37:30:80:a9:69",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -64,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bc:fb:9e:eb:81:8b",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "02:0e:38:d6:60:85",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "e7:19:be:1f:33:a7",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -56,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -53,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -52,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "33:b1:39:b3:8b:9c",
+        "rssi": -57,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -51,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -63,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -66,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "94:2a:3e:2c:ef:93",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "55:7f:3c:01:45:79",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -59,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -67,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -66,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -59,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -66,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "99:8b:04:bb:1c:fb",
+        "rssi": -54,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4f:dd:5b:0d:68:25",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -50,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -54,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:d0:c0:0a:e1:2a",
+        "rssi": -65,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "44:04:21:25:01:0f",
+        "rssi": -65,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -61,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -57,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:a4:39:41:c8:85",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "3b:ee:5c:76:d3:ed",
+        "rssi": -64,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f6:41:e2:30:f1:a2",
+        "rssi": -62,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "39:c1:ef:59:4b:d3",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -63,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "3c:14:bd:05:40:26",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -51,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -60,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -57,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -60,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -70,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "4a:98:b9:d6:8f:78",
+        "rssi": -68,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "50:08:c3:1e:e5:7a",
+        "rssi": -70,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ad:b3:0a:5d:d1:8d",
+        "rssi": -50,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "20:a2:f0:b2:31:9e",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -55,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "8e:de:04:eb:63:52",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:fb:95:b1:1c:0e",
+        "rssi": -52,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0d:3c:ca:49:93:55",
+        "rssi": -51,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "bb:c9:7b:9f:5c:96",
+        "rssi": -69,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "f9:fb:2a:c7:40:36",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "ee:ff:e7:45:05:c6",
+        "rssi": -64,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "dc:59:81:a8:a5:44",
+        "rssi": -70,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "1a:8f:db:08:8e:98",
+        "rssi": -59,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:fb:95:b1:1c:0e",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "03:10:af:08:cd:8e",
+        "rssi": -62,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "24:da:9f:86:2c:bb",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "71:3b:dd:ab:07:99",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "d1:c6:b7:20:e0:89",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "5e:60:fd:33:4a:55",
+        "rssi": -64,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -67,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "27:d4:97:e2:7c:15",
+        "rssi": -54,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0f:74:d9:73:2a:99",
+        "rssi": -50,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -61,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "7b:b4:ae:1a:94:b1",
+        "rssi": -55,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "37:19:53:2c:92:36",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "47:77:3a:d7:1b:98",
+        "rssi": -67,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "a3:bb:49:0f:10:6e",
+        "rssi": -69,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "61:57:18:9f:31:e8",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "0c:31:b6:16:5d:11",
+        "rssi": -66,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:ff:51:44:db:1e",
+        "rssi": -58,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "22:a1:4b:78:e5:22",
+        "rssi": -60,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -69,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "97:74:25:53:6c:63",
+        "rssi": -62,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "84:54:aa:9f:32:28",
+        "rssi": -56,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "b1:0b:67:3e:21:d7",
+        "rssi": -66,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "21:36:44:46:bc:11",
+        "rssi": -60,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -65,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "c9:fc:d1:5d:45:ff",
+        "rssi": -53,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "74:35:ea:a7:81:8f",
+        "rssi": -58,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "45:b8:18:e5:03:05",
+        "rssi": -56,
+        "ssid": "wifi2"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "31:4f:62:90:af:69",
+        "rssi": -56,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "be:97:f0:e8:ba:58",
+        "rssi": -50,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "eb:76:ad:18:85:4f",
+        "mac": "22:a1:4b:78:e5:22",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "de:6a:71:0e:f2:82",
+        "rssi": -68,
+        "ssid": "wifi1"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "55:bf:c3:8b:c3:0b",
+        "rssi": -51,
+        "ssid": "CoolWiFi"
+    },
+    {
+        "fromMac": "19:4a:58:ea:58:77",
+        "mac": "f9:27:25:87:35:45",
+        "rssi": -55,
+        "ssid": "momClickHere"
+    }
+]

@@ -1,0 +1,2 @@
+DEMO password is: Demo123
+To open the demo, replace "demo.txt" with "auth" in the URL and enter the key.

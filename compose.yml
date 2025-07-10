@@ -13,6 +13,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB:-sniff}
       ADMIN_KEY: ${ADMIN_KEY:-unsecure}
       POSTGRES_HOST: postgres
+      DEMO: ${DEMO:-}
     env_file: .env
     depends_on:
       postgres:
