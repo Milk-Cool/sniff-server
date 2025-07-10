@@ -16,3 +16,4 @@ Then, run the service with Compose:
 ```sh
 docker-compose up
 ```
+It'll start listening at port 9097. Don't forget to enter your admin key in the "auth" section!
