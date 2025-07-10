@@ -71,20 +71,19 @@ document.querySelector("#upload").addEventListener("click", async () => {
         return;
     }
     
-    // TODO: change after debug is over
-    // logs.value += "Uploading, please wait...\n";
-    // await loader.writeFlash({
-    //     eraseAll: true,
-    //     fileArray: [
-    //         { address: 0x1000, data: bootloader },
-    //         { address: 0x8000, data: partitions },
-    //         { address: 0x10000, data: firmware }
-    //     ],
-    //     flashSize: "keep",
-    //     compress: true,
-    // });
-    // await loader.after();
-    // logs.value += "Flashed the board, starting configuration...\n";
+    logs.value += "Uploading, please wait...\n";
+    await loader.writeFlash({
+        eraseAll: true,
+        fileArray: [
+            { address: 0x1000, data: bootloader },
+            { address: 0x8000, data: partitions },
+            { address: 0x10000, data: firmware }
+        ],
+        flashSize: "keep",
+        compress: true,
+    });
+    await loader.after();
+    logs.value += "Flashed the board, starting configuration...\n";
     alert("Press RST / EN on the board, then immediately press OK");
 
     const writer = await device.writable.getWriter();
