@@ -30,8 +30,8 @@ export const pool = new Pool({
 
 export const init = async () => {
     if(process.env.DEMO) {
-        await pool.query(`DROP TABLE boards`);
-        await pool.query(`DROP TABLE sniffs`);
+        await pool.query(`DROP TABLE IF EXISTS boards`);
+        await pool.query(`DROP TABLE IF EXISTS sniffs`);
     }
 
     await pool.query(`CREATE TABLE IF NOT EXISTS boards (
