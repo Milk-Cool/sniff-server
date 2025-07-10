@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("components/head", { title: "board stats for " + mac }) %>
+        <script src="/details.js" type="module" defer></script>
+    </head>
+    <body>
+        <%- include("components/sidebar") %>
+        <div id="main">
+            <h1>MAC details for <%= mac %></h1>
+            <h2>Timeline</h2>
+            <div id="timeline"></div>
+            <button id="more">More</button>
+        </div>
+    </body>
+</html>

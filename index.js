@@ -211,3 +211,20 @@ export const search = async (from, to, at = "") => {
             return x;
         });
 }
+
+/**
+ * Gets sniffs with a specific MAC address in a given range.
+ * @param {MAC} mac MAC address
+ * @param {number} from Min timestamp
+ * @param {number} to Max timestamp
+ * @param {number} [limit] Limit of results
+ * @param {number} [offset] Offset of results
+ * @returns {Sniff[]} The results
+ */
+export const getMACData = async (mac, from, to, limit = 500, offset = 0) => {
+    return (await pool.query(`SELECT * FROM sniffs
+        WHERE mac = $1 AND timestamp >= $2 AND timestamp <= $3
+        ORDER BY timestamp DESC
+        LIMIT $4 OFFSET $5`,
+        [macToBuffer(mac), from, to, limit, offset])).rows.map(objToMacs);
+}

@@ -20,3 +20,10 @@ frontendRouter.get("/board", async (req, res) => {
     if(!board) return res.status(404).send("Unknown/untrusted board!");
     res.send(loadEjs({ range, id: board.id, mac: board.mac, name: board.name }, "board.ejs"))
 });
+frontendRouter.get("/details", async (req, res) => {
+    const mac = req.query.mac;
+    const from = req.query.from ? parseInt(req.query.from) : 0;
+    const to = req.query.to ? parseInt(req.query.to) : Date.now();
+    if(!mac) return res.status(400).send("Bad request - please specify a MAC address!");
+    res.send(loadEjs({ from, to, mac }, "details.ejs"));
+});

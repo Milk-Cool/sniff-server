@@ -104,3 +104,12 @@ td, th {
 button {
     cursor: pointer;
 }
+
+#timeline > div {
+    background: var(--bgd);
+    max-width: 30em;
+    margin: .5em;
+    padding: .5em;
+    border: 3px solid var(--mg);
+    border-radius: 1em;
+}

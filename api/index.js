@@ -3,6 +3,7 @@ import { boardRouter } from "./boards.js";
 import { statsRouter } from "./stats.js";
 import { searchRouter } from "./search.js";
 import { passgenRouter } from "./passgen.js";
+import { detialsRouter } from "./details.js";
 
 export const apiRouter = express.Router();
 apiRouter.use(async (req, res, next) => {
@@ -15,3 +16,4 @@ apiRouter.use("/boards", boardRouter);
 apiRouter.use("/stats", statsRouter);
 apiRouter.use("/search", searchRouter);
 apiRouter.use("/passgen", passgenRouter);
+apiRouter.use("/details", detialsRouter);
