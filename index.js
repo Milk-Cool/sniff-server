@@ -42,6 +42,7 @@ export const init = async () => {
         mac bytea NOT NULL,
         rssi INTEGER NOT NULL,
         timestamp NUMERIC NOT NULL,
+        ssid TEXT,
 
         PRIMARY KEY (id)
     )`);
@@ -134,10 +135,11 @@ export const changeTrustedBoardsName = async (id, name) => {
  * @param {MAC} fromMac Board MAC address
  * @param {MAC} mac Device MAC address
  * @param {number} rssi RSSI
+ * @param {string} [ssid] SSID
  */
-export const pushSniff = async (fromMac, mac, rssi) => {
-    await pool.query(`INSERT INTO sniffs (id, from_mac, mac, rssi, timestamp)
-        VALUES ($1, $2, $3, $4, $5)`, [randomUUID(), macToBuffer(fromMac), macToBuffer(mac), rssi, Date.now()]);
+export const pushSniff = async (fromMac, mac, rssi, ssid = "") => {
+    await pool.query(`INSERT INTO sniffs (id, from_mac, mac, rssi, timestamp, ssid)
+        VALUES ($1, $2, $3, $4, $5, $6)`, [randomUUID(), macToBuffer(fromMac), macToBuffer(mac), rssi, Date.now(), ssid]);
 };
 
 /**
@@ -199,13 +201,16 @@ export const getBoardCharts = async (mac, range) => {
  * @param {number} from Min timestamp
  * @param {number} to Max timestamp
  * @param {MAC | ""} [at] MAC address of the board that must have sniffed their MAC
+ * @param {string | ""} [ssid] SSID
  * @returns {{ mac: MAC, spotted: number }[]} The results
  */
-export const search = async (from, to, at = "") => {
+export const search = async (from, to, at = "", ssid = "") => {
     return (await pool.query(`SELECT mac,
         COUNT(*) AS spotted
-        FROM sniffs WHERE timestamp >= $1 AND timestamp <= $2${at !== "" ? ` AND from_mac = $3` : ""}
-        GROUP BY mac ORDER BY spotted DESC`, [from, to].concat(at === "" ? [] : [macToBuffer(at)]))).rows.map(x => {
+        FROM sniffs WHERE timestamp >= $1 AND timestamp <= $2${at !== "" ? ` AND from_mac = $4` : ""}
+        GROUP BY mac
+        HAVING $3 = '' OR (COUNT(*) FILTER (WHERE ssid = $3) > 0)
+        ORDER BY spotted DESC`, [from, to, ssid].concat(at === "" ? [] : [macToBuffer(at)]))).rows.map(x => {
             x = objToMacs(x);
             x.spotted = parseInt(x.spotted);
             return x;

@@ -20,7 +20,7 @@ app.post("/sniff", express.json(), async (req, res) => {
     for(const sniff of req.body.sniffs) {
         if(!sniff.mac || !sniff.mac.match?.(MAC_REGEX) || typeof sniff.rssi !== "number")
             return res.status(400).send(`Invalid sniff!\n${JSON.stringify(sniff)}`);
-        await pushSniff(req.body.mac, sniff.mac, sniff.rssi);
+        await pushSniff(req.body.mac, sniff.mac, sniff.rssi, sniff.ssid);
     }
     res.send("OK");
 });

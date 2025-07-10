@@ -22,6 +22,12 @@ const pullTimeline = async () => {
         datetime.innerText = "Time: " + new Date(parseInt(sniff.timestamp)).toLocaleString();
         div.appendChild(datetime);
 
+        if(sniff.ssid) {
+            const ssid = document.createElement("h4");
+            ssid.innerText = "SSID: " + sniff.ssid;
+            div.appendChild(ssid);
+        }
+
         timeline.appendChild(div);
     }
     if(data.length === 0) document.querySelector("#more").remove();

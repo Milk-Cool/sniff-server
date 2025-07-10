@@ -6,10 +6,11 @@ searchRouter.get("/", async (req, res) => {
     const from = req.query.from ? parseInt(req.query.from) : 0;
     const to = req.query.to ? parseInt(req.query.to) : Date.now();
     const at = req.query.at || "";
+    const ssid = req.query.ssid || "";
 
     res.send(await search(
         Number.isNaN(from) ? 0 : from,
         Number.isNaN(to) ? Date.now() : to,
-        at
+        at, ssid
     ));
 });

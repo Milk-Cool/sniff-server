@@ -55,12 +55,13 @@ else (async () => {
     document.querySelector("#search").addEventListener("click", async () => {
         const from = document.querySelector("#from").valueAsNumber;
         const to = document.querySelector("#to").valueAsNumber;
+        const ssid = document.querySelector("#ssid").value;
         if(Number.isNaN(from) || Number.isNaN(to))
             return alert("Invalid dates!");
         const at = document.querySelector("#at").value;
         
         const f = await fetch("/api/search?" + new URLSearchParams({
-            from, to, at
+            from, to, at, ssid
         }), {
             headers: { authorization: "Bearer " + localStorage.getItem("_sniff_key") }
         });
