@@ -1,0 +1,31 @@
+services:
+  sniff:
+    restart: always
+    build:
+      context: .
+      args:
+        NODE_ENV: ${NODE_ENV:-development}
+    ports:
+      - "9097:9097"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sniff}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-unsecure}
+      POSTGRES_DB: ${POSTGRES_DB:-sniff}
+      ADMIN_KEY: ${ADMIN_KEY:-unsecure}
+      POSTGRES_HOST: postgres
+    env_file: .env
+    depends_on:
+      postgres:
+        condition: service_healthy
+  postgres:
+    restart: always
+    image: postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sniff}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-unsecure}
+      POSTGRES_DB: ${POSTGRES_DB:-sniff}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sniff}"]
+      interval: 1s
+      timeout: 2s
+      retries: 10
