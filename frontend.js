@@ -12,6 +12,7 @@ frontendRouter.get("/", async (req, res) => {
 frontendRouter.get("/viewer", (_req, res) => res.send(loadEjs({}, "viewer.ejs")));
 frontendRouter.get("/upload", (_req, res) => res.send(loadEjs({}, "upload.ejs")));
 frontendRouter.get("/boards", (_req, res) => res.send(loadEjs({}, "boards.ejs")));
+frontendRouter.get("/export", (_req, res) => res.send(loadEjs({}, "export.ejs")));
 frontendRouter.get("/board", async (req, res) => {
     const range = req.query.range ? parseInt(req.query.range) : DEFAULT_RANGE;
     const id = req.query.id;

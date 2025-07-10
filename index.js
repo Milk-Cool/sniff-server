@@ -233,3 +233,23 @@ export const getMACData = async (mac, from, to, limit = 500, offset = 0) => {
         LIMIT $4 OFFSET $5`,
         [macToBuffer(mac), from, to, limit, offset])).rows.map(objToMacs);
 }
+
+/**
+ * Exports data.
+ * May cause memory issues with big amounts of data.
+ * @param {number} from Min timestamp
+ * @param {number} to Max timestamp
+ * @returns {Sniff[]} The exported data
+ */
+export const exportData = async (from, to) => {
+    return (await pool.query(`SELECT * FROM sniffs WHERE timestamp >= $1 AND timestamp <= $2`, [from, to])).rows.map(objToMacs);
+};
+/**
+ * Gets the total amount of sniffs.
+ * @param {number} from Min timestamp
+ * @param {number} to Max timestamp
+ * @returns {number} The amount
+ */
+export const countData = async (from, to) => {
+    return (await pool.query(`SELECT COUNT(*) AS cnt FROM sniffs WHERE timestamp >= $1 AND timestamp <= $2`, [from, to])).rows?.[0]?.cnt;
+};

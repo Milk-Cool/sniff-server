@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include("components/head", { title: "export" }) %>
+        <script src="/export.js" type="module" defer></script>
+    </head>
+    <body>
+        <%- include("components/sidebar") %>
+        <div id="main">
+            <h1>Export</h1>
+            <h6>All dates are in UTC!</h6>
+            <label for="from">From: </label><input type="datetime-local" id="from"><br>
+            <label for="to">To: </label><input type="datetime-local" id="to"><br>
+            <button id="refresh">Refresh</button>
+            <h2>Current records: <span id="records">???</span></h2>
+            <h3>Please note: high enough amounts may and probably will cause memory issues!</h3>
+            <button id="export">Export</button>
+        </div>
+    </body>
+</html>
