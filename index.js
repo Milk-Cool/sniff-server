@@ -1,5 +1,5 @@
 import { Pool } from "pg";
-import { randomUUID } from "crypto";
+import { createHash, randomUUID } from "crypto";
 
 export const pool = new Pool({
     host: process.env.POSTGRES_HOST,
@@ -15,6 +15,8 @@ export const pool = new Pool({
  * @typedef {object} Board A board
  * @prop {import("crypto").UUID} id Board internal UUID
  * @prop {MAC} mac Board mac
+ * @prop {string} name Board name
+ * @prop {Buffer} key Board authkey
  */
 /**
  * @typedef {object} Sniff A sniffed MAC
@@ -29,6 +31,8 @@ export const init = async () => {
     await pool.query(`CREATE TABLE IF NOT EXISTS boards (
         id uuid NOT NULL,
         mac bytea NOT NULL,
+        name varchar(80),
+        key bytea,
 
         PRIMARY KEY (id)
     )`);
@@ -64,27 +68,35 @@ const bufferToMac = buf => {
  * @param {object} obj Initial object
  * @returns {object} Output object
  */
-const objToMacs = obj => {
+const objToMacs = (obj, delKey = true) => {
     if(!obj) return obj;
     if("mac" in obj) obj.mac = bufferToMac(obj.mac);
     if("from_mac" in obj) obj.from_mac = bufferToMac(obj.from_mac);
+
+    // For boards
+    if("key" in obj && delKey) delete obj.key;
+
     return obj;
 };
 
 /**
  * Adds a trusted board.
  * @param {MAC} mac Board MAC address
+ * @param {string} name Board name
+ * @param {string} key Board authkey
  */
-export const addTrustedBoard = async mac => {
-    await pool.query(`INSERT INTO boards (id, mac) VALUES ($1, $2)`, [randomUUID(), macToBuffer(mac)]);
+export const addTrustedBoard = async (mac, name, key) => {
+    await pool.query(`INSERT INTO boards (id, mac, name, key) VALUES ($1, $2, $3, $4)`,
+        [randomUUID(), macToBuffer(mac), name, Buffer.from(createHash("sha256").update(key).digest("hex"), "hex")]);
 };
 /**
  * Gets a trusted board.
  * @param {MAC} mac Board MAC address
+ * @param {boolean} delKey whether the key should be omitted
  * @returns {Board} The board
  */
-export const getTrustedBoard = async mac => {
-    return objToMacs((await pool.query(`SELECT * FROM boards WHERE mac = $1`, [macToBuffer(mac)])).rows?.[0]);
+export const getTrustedBoard = async (mac, delKey = true) => {
+    return objToMacs((await pool.query(`SELECT * FROM boards WHERE mac = $1`, [macToBuffer(mac)])).rows?.[0], delKey);
 };
 /**
  * Gets a trusted board by its ID.

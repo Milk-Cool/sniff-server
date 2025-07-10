@@ -34,6 +34,16 @@ document.querySelector("#upload").addEventListener("click", async () => {
     const api = document.querySelector("#api").value;
     if(!ssid || !password || !api)
         return alert("Please enter the settings!");
+    
+    const name = document.querySelector("#name").value;
+
+    const fkey = await fetch("/api/passgen", {
+        headers: {
+            authorization: "Bearer " + localStorage.getItem("_sniff_key")
+        }
+    });
+    if(fkey.status !== 200) return alert("Could not generate key!");
+    const key = await fkey.text();
 
     const device = await navigator.serial.requestPort();
     const transport = new Transport(device, true);
@@ -53,31 +63,36 @@ document.querySelector("#upload").addEventListener("click", async () => {
             "content-type": "application/json",
             authorization: "Bearer " + localStorage.getItem("_sniff_key")
         },
-        body: JSON.stringify({ mac })
+        body: JSON.stringify({ mac, name, key })
     });
     if(f.status === 200) logs.value += "Board added!\n";
     else {
         logs.value += "Couldn't add board: " + f.status + "\n";
-        if(f.status !== 409) return;
-        logs.value += "Continuing anyway - it already exists\n";
+        return;
     }
     
-    logs.value += "Uploading, please wait...\n";
-    await loader.writeFlash({
-        eraseAll: true,
-        fileArray: [
-            { address: 0x1000, data: bootloader },
-            { address: 0x8000, data: partitions },
-            { address: 0x10000, data: firmware }
-        ],
-        flashSize: "keep",
-        compress: true,
-    });
-    await loader.after();
-    logs.value += "Flashed the board, starting configuration...\n";
+    // TODO: change after debug is over
+    // logs.value += "Uploading, please wait...\n";
+    // await loader.writeFlash({
+    //     eraseAll: true,
+    //     fileArray: [
+    //         { address: 0x1000, data: bootloader },
+    //         { address: 0x8000, data: partitions },
+    //         { address: 0x10000, data: firmware }
+    //     ],
+    //     flashSize: "keep",
+    //     compress: true,
+    // });
+    // await loader.after();
+    // logs.value += "Flashed the board, starting configuration...\n";
+    alert("Press RST / EN on the board, then immediately press OK");
 
-    await sleep(1000);
     const writer = await device.writable.getWriter();
-    await writer.write(new TextEncoder().encode(`s${ssid}\np${password}\na${api}\n`));
-    logs.value += "Written settings.\nDone! Wait 60s and see if it works :D\n"
+    for(const setting of [`s${ssid}\n`, `p${password}\n`, `a${api}\n`, `k${key}\n`]) {
+        await writer.write(new TextEncoder().encode(setting));
+        // console.log(setting);
+    }
+    writer.releaseLock();
+    await transport.disconnect();
+    logs.value += "Written settings.\nDone! Wait 60s and see if it works :D\n";
 });

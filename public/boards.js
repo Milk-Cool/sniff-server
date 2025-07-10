@@ -25,6 +25,10 @@ const updateTable = boards => {
         mac.innerText = board.mac;
         tr.appendChild(mac);
 
+        const name = document.createElement("td");
+        name.innerText = board.name;
+        tr.appendChild(name);
+
         const actions = document.createElement("td");
 
         const del = document.createElement("a");
@@ -59,13 +63,16 @@ else (async () => {
 
     document.querySelector("#add").addEventListener("click", async () => {
         const mac = document.querySelector("#mac").value;
+        const key = document.querySelector("#key").value;
+        const name = document.querySelector("#name").value;
+        if(!mac || !key) return alert("Please fill in the required fields!");
         const f = await fetch("/api/boards/new", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
                 authorization: "Bearer " + localStorage.getItem("_sniff_key")
             },
-            body: JSON.stringify({ mac })
+            body: JSON.stringify({ mac, key, name })
         });
         if(f.status !== 200) return alert("Couldn't add!");
         updateTable(await f.json());

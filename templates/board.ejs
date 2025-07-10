@@ -8,7 +8,7 @@
         <%- include("components/sidebar") %>
         <div id="main">
             <h1>Board stats</h1>
-            <h2>ID: <%= id %> | MAC: <%= mac %></h2>
+            <h2>ID: <%= id %> | MAC: <%= mac %><%= name ? " | " + name : "" %></h2>
             <%- include("components/stats", { range, boards: false, id }) %>
         </div>
     </body>

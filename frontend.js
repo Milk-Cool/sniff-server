@@ -18,5 +18,5 @@ frontendRouter.get("/board", async (req, res) => {
     if(!id) return res.status(400).send("Bad request - please specify a board ID!");
     const board = await getTrustedBoardByID(id);
     if(!board) return res.status(404).send("Unknown/untrusted board!");
-    res.send(loadEjs({ range, id: board.id, mac: board.mac }, "board.ejs"))
+    res.send(loadEjs({ range, id: board.id, mac: board.mac, name: board.name }, "board.ejs"))
 });

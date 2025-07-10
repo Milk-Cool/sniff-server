@@ -35,10 +35,10 @@ boardRouter.get("/:id/chart", async (req, res) => {
     }));
 });
 boardRouter.post("/new", async (req, res) => {
-    if(!req.body || !req.body.mac || !req.body.mac.match?.(MAC_REGEX))
+    if(!req.body || !req.body.mac || !req.body.mac.match?.(MAC_REGEX) || !req.body.key)
         return res.status(400).send("Bad request");
     if(await getTrustedBoard(req.body.mac))
         return res.status(409).send("Already exists!");
-    await addTrustedBoard(req.body.mac);
+    await addTrustedBoard(req.body.mac, req.body.name || "", req.body.key);
     res.send(await getTrustedBoards());
 });

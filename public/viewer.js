@@ -4,7 +4,7 @@ const updateSelect = boards => {
         const option = document.createElement("option");
 
         option.value = board.mac;
-        option.innerText = board.mac;
+        option.innerText = board.mac + (board.name ? " | " + board.name : "");
 
         select.appendChild(option);
     }
